@@ -26,6 +26,8 @@ in_memory_file = s.getvalue()
 
 
 
+print('Number of arguments:', len(sys.argv), 'arguments.')
+print('Argument List:', str(sys.argv))
 
 # with open("data/data.html", 'r', encoding='utf-8') as file:
 #     contents = file.read()
